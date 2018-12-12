@@ -1,0 +1,12 @@
+README.txt
+__main__.py
+setup.py
+http_api.egg-info/PKG-INFO
+http_api.egg-info/SOURCES.txt
+http_api.egg-info/dependency_links.txt
+http_api.egg-info/requires.txt
+http_api.egg-info/top_level.txt
+pysearch/__init__.py
+pysearch/indexer.py
+pysearch/service.py
+pysearch/settings.py
