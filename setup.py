@@ -8,9 +8,9 @@ from setuptools import setup, find_packages
 
 setup(
     # Metadata
-    name='http api',
+    name='http_api',
     version='1.0',
-    description='http search api',
+    description='httpsearchapi',
     maintainer='egormeister',
     maintainer_email='meisteregor@yandex.ru',
     platforms=['POSIX'],
