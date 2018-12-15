@@ -1,7 +1,7 @@
 # httpapi
 
 INSTALL
-# Build egg package
+# build egg package
 ./setup.py bdist_egg
 # install dependencies
 python3(.6) -m easy_install dist/http_api-1.0-py3.5.egg
