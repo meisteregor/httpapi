@@ -11,7 +11,7 @@ python3 ./dist/http_api-1.0-py3.5.egg index --db index.db --data ../test_data
 python3 ./dist/http_api-1.0-py3.5.egg service --db index.db --port 5001
 
 -REST:
-http://hostname:port\/<keyword1>\/<keyword..>\/<keywordn>/?search=&param=
+http://hostname:port/<keyword1><keyword..>/<keywordn>/?search=&param=
 default search by values with intersection (...?search=&param=)
 search=key - by keys
 param=d    - disjunction
