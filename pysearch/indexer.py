@@ -12,7 +12,7 @@ def _index_obj(file_id, data, obj, lvl=0):
     if lvl >= 3:
         return
     if isinstance(obj, dict):
-        keys = obj.keys()
+        keys = [s.lower() for s in obj.keys() if isinstance(s, str)]
         values = obj.values()
         for k in keys:
             if k not in data['keys']:
