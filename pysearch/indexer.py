@@ -58,6 +58,8 @@ def _index_files(dir_, files=None, all_data=None):
 
 
 def _run_indexer(db_f, data_dir):
+    if not os.path.exists(data_dir) or not os.listdir(data_dir):
+        raise ValueError("Enter a valid path to data")
     if os.path.exists(db_f):
         os.unlink(db_f)
 
